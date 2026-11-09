@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="no-referrer" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'self'" />
+  <title>Smart Warehouse – Purchase orders</title>
+  <link rel="stylesheet" href="style (10).css?v=19" />
+</head>
+<body>
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <svg width="21.5" height="19.875" viewBox="75.5 24.5 21.5 19.875" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="paint1_linear_1473_3002" x1="86.5249" y1="39.4102" x2="91.2201" y2="39.4102" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0B4D6"/>
+<stop offset="0.6" stop-color="#4B6DC5"/>
+</linearGradient><linearGradient id="paint2_linear_1473_3002" x1="81.1831" y1="39.4102" x2="85.8783" y2="39.4102" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0B4D6"/>
+<stop offset="0.6" stop-color="#4B6DC5"/>
+</linearGradient><linearGradient id="paint3_linear_1473_3002" x1="83.771" y1="34.5547" x2="88.6281" y2="34.5547" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0B4D6"/>
+<stop offset="0.6" stop-color="#4B6DC5"/>
+</linearGradient><linearGradient id="paint4_linear_1473_3002" x1="76" y1="25" x2="96.4" y2="25" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A0B4D6"/>
+<stop offset="0.6" stop-color="#4B6DC5"/>
+</linearGradient></defs><rect x="88.6294" y="39.4102" width="0.485714" height="1.45714" fill="#001322"/>
+<rect x="86.5249" y="39.4102" width="4.69524" height="4.37143" rx="0.32381" fill="url(#paint1_linear_1473_3002)"/>
+<rect x="83.2856" y="39.4102" width="0.485714" height="1.45714" fill="#001322"/>
+<rect x="81.1831" y="39.4102" width="4.69524" height="4.37143" rx="0.32381" fill="url(#paint2_linear_1473_3002)"/>
+<rect x="86.0391" y="34.5547" width="0.485714" height="1.45714" fill="#001322"/>
+<rect x="83.771" y="34.5547" width="4.85714" height="4.37143" rx="0.32381" fill="url(#paint3_linear_1473_3002)"/>
+<path d="M76.6476 29.6129L85.5524 25.1647C85.9841 24.9451 86.4159 24.9451 86.8476 25.1647L95.7524 29.6129C96.1841 29.8325 96.4 30.2169 96.4 30.7661V43.122C96.4 43.5613 96.1841 43.781 95.7524 43.781H94.619V31.0956L86.2 26.8122L77.781 31.0956V43.781H76.6476C76.2159 43.781 76 43.5613 76 43.122V30.7661C76 30.2169 76.2159 29.8325 76.6476 29.6129Z" fill-rule="evenodd" clip-rule="evenodd" fill="url(#paint4_linear_1473_3002)"/></svg>
+      <span class="b1" data-i18n="brand1">Smart </span><span class="b2" data-i18n="brand2">Warehouse</span>
+    </div>
+
+    <div class="nav-label" data-i18n="operations">Operations</div>
+    <ul class="nav">
+      <li><a href="../dashboard%20admin/dash.html"><svg width="13" height="13" viewBox="24 123.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.1667 125.125H28.875C29.1742 125.125 29.4167 125.368 29.4167 125.667V129.458C29.4167 129.757 29.1742 130 28.875 130H26.1667C25.8675 130 25.625 129.757 25.625 129.458V125.667C25.625 125.368 25.8675 125.125 26.1667 125.125ZM32.125 125.125H34.8333C35.1325 125.125 35.375 125.368 35.375 125.667V127.292C35.375 127.591 35.1325 127.833 34.8333 127.833H32.125C31.8258 127.833 31.5833 127.591 31.5833 127.292V125.667C31.5833 125.368 31.8258 125.125 32.125 125.125ZM32.125 130H34.8333C35.1325 130 35.375 130.243 35.375 130.542V134.333C35.375 134.632 35.1325 134.875 34.8333 134.875H32.125C31.8258 134.875 31.5833 134.632 31.5833 134.333V130.542C31.5833 130.243 31.8258 130 32.125 130ZM26.1667 132.167H28.875C29.1742 132.167 29.4167 132.409 29.4167 132.708V134.333C29.4167 134.632 29.1742 134.875 28.875 134.875H26.1667C25.8675 134.875 25.625 134.632 25.625 134.333V132.708C25.625 132.409 25.8675 132.167 26.1667 132.167Z" stroke-width="1.3" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="dashboard">Dashboard</span></a></li>
+      <li><a href="../Alerts/alerts.html"><svg width="13" height="13" viewBox="24 161.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M29.5612 172.875C29.6562 173.039 29.793 173.176 29.9577 173.271C30.1224 173.366 30.3092 173.416 30.4993 173.416C30.6895 173.416 30.8763 173.366 31.041 173.271C31.2057 173.176 31.3424 173.039 31.4375 172.875M25.7665 169.801C25.6958 169.878 25.6491 169.975 25.6321 170.079C25.6152 170.182 25.6287 170.288 25.671 170.385C25.7134 170.481 25.7827 170.562 25.8707 170.62C25.9586 170.677 26.0613 170.708 26.1663 170.708H34.8331C34.9381 170.708 35.0408 170.677 35.1288 170.62C35.2168 170.563 35.2862 170.481 35.3287 170.385C35.3712 170.289 35.3848 170.183 35.368 170.079C35.3512 169.976 35.3046 169.879 35.234 169.801C34.5135 169.059 33.7498 168.269 33.7498 165.832C33.7498 164.97 33.4074 164.144 32.7978 163.534C32.1883 162.924 31.3617 162.582 30.4997 162.582C29.6377 162.582 28.8111 162.924 28.2016 163.534C27.5921 164.144 27.2496 164.97 27.2496 165.832C27.2496 168.269 26.4853 169.059 25.7665 169.801Z" stroke-width="1.3" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="alerts">Alerts</span><span class="badge" data-i18n="n" data-n="5">5</span></a></li>
+      <li><a href="../Inventory%201/Inventory.html"><svg width="13" height="13" viewBox="24 199.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.7874 203.291L30.4999 206M30.4999 206L35.2124 203.291M30.4999 206L30.5 211.416M30.5 211.416V211.417M30.5 211.416C30.3098 211.416 30.123 211.366 29.9583 211.271L26.1667 209.104C26.0021 209.009 25.8655 208.872 25.7704 208.708C25.6753 208.543 25.6252 208.357 25.625 208.167V203.833C25.6252 203.643 25.6753 203.456 25.7704 203.292C25.8655 203.128 26.0021 202.991 26.1667 202.896L29.9583 200.729C30.123 200.634 30.3098 200.584 30.5 200.584C30.6902 200.584 30.877 200.634 31.0417 200.729L34.8333 202.896C34.9979 202.991 35.1345 203.128 35.2296 203.292C35.3247 203.456 35.3748 203.643 35.375 203.833V208.167C35.3748 208.357 35.3247 208.543 35.2296 208.708C35.1345 208.872 34.9979 209.009 34.8333 209.104L31.0417 211.271C30.877 211.366 30.6902 211.416 30.5 211.416Z" stroke-width="1.3" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="inventory">Inventory</span></a></li>
+      <li><a href="#"><svg width="13" height="13" viewBox="24 237.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.625 240.207V247.791M28.3333 240.207V247.791M30.5 240.207V247.791M33.2083 240.207V247.791M35.375 240.207V247.791" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="products">Products</span></a></li>
+    </ul>
+
+    <div class="nav-label" data-i18n="planning">Planning</div>
+    <ul class="nav">
+      <li><a href="../AI%20forecast1/ai.html"><svg width="13" height="13" viewBox="24 308.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M35.9172 315.542V312.293H32.6669M35.9172 312.293L31.3127 316.896L28.6041 314.188L25.083 317.709" stroke-width="1.3" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="forecast">AI forecast</span></a></li>
+      <li><a href="#" class="active"><svg width="13" height="13" viewBox="24 346.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32.6663 348.665H33.7496C34.0369 348.665 34.3124 348.78 34.5155 348.983C34.7187 349.186 34.8328 349.462 34.8328 349.749V357.333C34.8328 357.62 34.7187 357.896 34.5155 358.099C34.3124 358.302 34.0369 358.416 33.7496 358.416H27.2502C26.9629 358.416 26.6874 358.302 26.4843 358.099C26.2811 357.896 26.167 357.62 26.167 357.333V349.749C26.167 349.462 26.2811 349.186 26.4843 348.983C26.6874 348.78 26.9629 348.665 27.2502 348.665H28.3334M32.6663 348.665V348.124C32.6663 347.825 32.4239 347.582 32.1247 347.582H28.8751C28.5759 347.582 28.3334 347.825 28.3334 348.124V348.665M32.6663 348.665V349.207C32.6663 349.506 32.4239 349.749 32.1247 349.749H28.8751C28.5759 349.749 28.3334 349.506 28.3334 349.207V348.665M30.4999 352.457H32.6663M30.4999 355.166H32.6663M28.3334 352.457H28.3389M28.3334 355.166H28.3389" stroke-width="1.3" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="purchaseOrders">Purchase orders</span><span class="badge" data-i18n="n" data-n="6">6</span></a></li>
+      <li><a href="../suppliers/suppliers.html"><svg width="13" height="13" viewBox="24 384.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31.5835 394.251V388.834M31.5835 394.251H32.1252M31.5835 394.251H28.875M31.5835 388.834V387.751C31.5835 387.464 31.4694 387.188 31.2662 386.985C31.063 386.782 30.7874 386.668 30.5001 386.668H26.1664C25.8791 386.668 25.6035 386.782 25.4003 386.985C25.1972 387.188 25.083 387.464 25.083 387.751V393.709C25.083 393.853 25.1401 393.99 25.2417 394.092C25.3433 394.193 25.481 394.251 25.6247 394.251H26.7081M31.5835 388.834H33.4903C33.5715 388.835 33.6517 388.853 33.7248 388.888C33.7979 388.923 33.8622 388.975 33.9129 389.038L35.798 391.394C35.875 391.49 35.917 391.609 35.9172 391.732V393.709C35.9172 393.853 35.8601 393.99 35.7585 394.092C35.657 394.193 35.5192 394.251 35.3755 394.251H34.2921M26.7081 394.251C26.7081 394.849 27.1932 395.334 27.7916 395.334C28.3899 395.334 28.875 394.849 28.875 394.251M26.7081 394.251C26.7081 393.652 27.1932 393.167 27.7916 393.167C28.3899 393.167 28.875 393.652 28.875 394.251M32.1252 394.251C32.1252 394.849 32.6103 395.334 33.2087 395.334C33.807 395.334 34.2921 394.849 34.2921 394.251M32.1252 394.251C32.1252 393.652 32.6103 393.167 33.2087 393.167C33.807 393.167 34.2921 393.652 34.2921 394.251" stroke-width="1.3" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="suppliers">Suppliers</span></a></li>
+      <li><a href="../generate%20reports/generate-report%20%2810%29.html"><svg width="13" height="13" viewBox="24 422.5 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.708 433.875V430.625M30.5001 433.875V424.125M34.2922 433.875V427.375" stroke-width="1.3" stroke-linecap="round" stroke="#CDD4E1"/></svg><span data-i18n="reports">Reports</span></a></li>
+    </ul>
+
+    <div class="user">
+      <div class="avatar" data-i18n="initials">WM</div>
+      <div class="user-info"><strong data-i18n="userName">Warehouse</strong><small data-i18n="userRole">Manager</small></div>
+      <button class="user-count" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="usersPopup" aria-label="Active users: 5">
+        <svg width="17.5" height="16" viewBox="143.25 732 17.5 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M155 746.75V745.25C155 744.455 154.684 743.691 154.121 743.129C153.559 742.566 152.796 742.25 152 742.25H147.5C146.704 742.25 145.941 742.566 145.379 743.129C144.816 743.691 144.5 744.455 144.5 745.25V746.75M159.5 746.75V745.25C159.5 744.585 159.278 743.94 158.871 743.414C158.464 742.889 157.894 742.514 157.25 742.348M155 733.348C155.645 733.513 156.217 733.888 156.626 734.414C157.034 734.941 157.256 735.588 157.256 736.254C157.256 736.92 157.034 737.567 156.626 738.093C156.217 738.62 155.645 738.995 155 739.16" stroke-width="1.275" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path d="M152.75 736.25C152.75 737.907 151.407 739.25 149.75 739.25C148.093 739.25 146.75 737.907 146.75 736.25C146.75 734.593 148.093 733.25 149.75 733.25C151.407 733.25 152.75 734.593 152.75 736.25Z" stroke-width="1.275" stroke-linecap="round" stroke-linejoin="round" stroke="white"/></svg>
+        <i data-i18n="n" data-n="5">5</i>
+      </button>
+    </div>
+
+    <section class="users-popup" id="usersPopup" role="dialog" aria-label="Active users" aria-hidden="true" hidden>
+      <header class="users-popup-header">
+        <div><strong data-i18n="activeUsers">Active users</strong><span data-i18n="signedIn">Signed in to the website</span></div>
+        <span class="online-count"><i></i><b data-i18n="onlineCount" data-n="5">5 online</b></span>
+      </header>
+      <div class="active-users-list">
+        <div class="active-user"><span class="active-avatar tone-blue">AH<i></i></span><span class="active-identity"><b>Ahmed Hassan</b><small>ahmed@smartwh.com</small></span><span class="role-chip" data-i18n="employee">Employee</span></div>
+        <div class="active-user"><span class="active-avatar tone-green">SM<i></i></span><span class="active-identity"><b>Sara Mostafa</b><small>sara@smartwh.com</small></span><span class="role-chip" data-i18n="employee">Employee</span></div>
+        <div class="active-user"><span class="active-avatar tone-gold">KA<i></i></span><span class="active-identity"><b>Karim Adel</b><small>karim@supplier.com</small></span><span class="role-chip role-merchant" data-i18n="merchant">Merchant</span></div>
+        <div class="active-user"><span class="active-avatar tone-purple">NY<i></i></span><span class="active-identity"><b>Nour Youssef</b><small>nour@smartwh.com</small></span><span class="role-chip" data-i18n="employee">Employee</span></div>
+        <div class="active-user"><span class="active-avatar tone-red">MT<i class="presence-away"></i></span><span class="active-identity"><b>Mona Tarek</b><small data-i18n="activeAgo" data-n="8">Active 8 min ago</small></span><span class="role-chip role-merchant" data-i18n="merchant">Merchant</span></div>
+      </div>
+      <div class="users-custom-scrollbar" aria-hidden="true"><div class="users-custom-scrollbar-thumb"></div></div>
+      <footer class="users-popup-account"><span class="active-avatar tone-manager" data-i18n="initials">WM</span><span class="active-identity"><b data-i18n="popupName">Warehouse Manager</b><small data-i18n="admin">Admin</small></span><button class="signout-button" type="button" aria-label="Sign out"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12 3H5.5A1.5 1.5 0 0 0 4 4.5v11A1.5 1.5 0 0 0 5.5 17H12M10 10h7m0 0-3-3m3 3-3 3"/></svg></button></footer>
+    </section>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <h1 data-i18n="title">Purchase orders</h1>
+        <p data-i18n="subtitle">Orders sent to suppliers and their status</p>
+      </div>
+      <div class="actions">
+        <label class="search">
+          <svg width="12.25" height="12.25" viewBox="800.375 33.875 12.25 12.25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M811.375 44.8751L809.024 42.5243M810.292 39.4583C810.292 41.8516 808.352 43.7917 805.958 43.7917C803.565 43.7917 801.625 41.8516 801.625 39.4583C801.625 37.0651 803.565 35.125 805.958 35.125C808.352 35.125 810.292 37.0651 810.292 39.4583Z" stroke-width="1.3" stroke-linecap="round" stroke="#7D8491"/></svg>
+          <input type="search" maxlength="100" autocomplete="off" spellcheck="false" data-i18n-ph="search" placeholder="Search products, SKUs..." />
+        </label>
+        <div class="lang" dir="ltr"><button class="on" data-lang="en">English</button><button data-lang="ar">العربية</button></div>
+        <button class="icon-btn" aria-label="Notifications">
+          <svg width="13.75" height="15" viewBox="1203.125 32.5 13.75 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1208.92 45.626C1209.03 45.816 1209.18 45.9738 1209.37 46.0835C1209.56 46.1932 1209.78 46.251 1210 46.251C1210.22 46.251 1210.43 46.1932 1210.62 46.0835C1210.81 45.9738 1210.97 45.816 1211.08 45.626M1204.54 42.0795C1204.46 42.1689 1204.4 42.2802 1204.38 42.3998C1204.36 42.5194 1204.38 42.642 1204.43 42.7529C1204.48 42.8637 1204.56 42.958 1204.66 43.0242C1204.76 43.0904 1204.88 43.1257 1205 43.1258H1215C1215.12 43.1258 1215.24 43.0907 1215.34 43.0246C1215.44 42.9585 1215.52 42.8644 1215.57 42.7536C1215.62 42.6428 1215.64 42.5202 1215.62 42.4006C1215.6 42.281 1215.54 42.1697 1215.46 42.0801C1214.63 41.2231 1213.75 40.3124 1213.75 37.5003C1213.75 36.5057 1213.35 35.5518 1212.65 34.8484C1211.95 34.1451 1210.99 33.75 1210 33.75C1209.01 33.75 1208.05 34.1451 1207.35 34.8484C1206.64 35.5518 1206.25 36.5057 1206.25 37.5003C1206.25 40.3124 1205.37 41.2231 1204.54 42.0795Z" stroke-width="1.3" stroke-linecap="round" stroke="#15283D"/></svg>
+        </button>
+        <button class="btn-primary" data-i18n="newPO">New Purchase Order</button>
+      </div>
+    </header>
+
+    <nav class="tabs" id="tabs">
+      <button class="on" data-filter="all" data-i18n="all">All</button>
+      <button data-filter="pending" data-i18n="pending">Pending</button>
+      <button data-filter="approved" data-i18n="approved">Approved</button>
+      <button data-filter="delivered" data-i18n="delivered">Delivered</button>
+    </nav>
+
+    <section class="stats">
+      <div class="stat">
+        <div class="ico blue"><svg width="18.875" height="18.875" viewBox="245.875 186.5 18.875 18.875" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M259.35 189.421H261.375C261.912 189.421 262.427 189.591 262.807 189.895C263.187 190.199 263.4 190.611 263.4 191.041V202.381C263.4 202.81 263.187 203.222 262.807 203.526C262.427 203.83 261.912 204.001 261.375 204.001H249.225C248.688 204.001 248.173 203.83 247.793 203.526C247.414 203.222 247.2 202.81 247.2 202.381V191.041C247.2 190.611 247.414 190.199 247.793 189.895C248.173 189.591 248.688 189.421 249.225 189.421H251.25M259.35 189.421V188.611C259.35 188.163 258.897 187.801 258.338 187.801H252.263C251.704 187.801 251.25 188.163 251.25 188.611V189.421M259.35 189.421V190.231C259.35 190.678 258.897 191.041 258.338 191.041H252.263C251.704 191.041 251.25 190.678 251.25 190.231V189.421M255.3 195.091H259.35M255.3 199.141H259.35M251.25 195.091H251.26M251.25 199.141H251.26" stroke-width="1.6" stroke-linecap="round" stroke="#21446B"/></svg></div>
+        <div><div class="label" data-i18n="openOrders">Open orders</div><div class="num" data-i18n="n" data-n="5">5</div><div class="sub navy" data-i18n="beingProcessed">Being Processed</div></div>
+      </div>
+      <div class="stat">
+        <div class="ico amber"><svg width="17.625" height="16.125" viewBox="655.5 186.875 17.625 16.125" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M664.333 192.749V195.749M664.333 198.749H664.341M671.631 199.499L665.631 188.999C665.5 188.768 665.311 188.576 665.082 188.442C664.852 188.309 664.592 188.238 664.326 188.238C664.061 188.238 663.8 188.309 663.571 188.442C663.342 188.576 663.152 188.768 663.021 188.999L657.021 199.499C656.889 199.728 656.82 199.988 656.82 200.252C656.821 200.517 656.891 200.776 657.025 201.005C657.158 201.233 657.349 201.422 657.579 201.553C657.809 201.684 658.069 201.751 658.334 201.749H670.334C670.597 201.748 670.855 201.679 671.083 201.547C671.311 201.415 671.5 201.226 671.632 200.998C671.763 200.77 671.832 200.511 671.832 200.248C671.832 199.985 671.763 199.727 671.631 199.499Z" stroke-width="1.5" stroke-linecap="round" stroke="#BD8C25"/></svg></div>
+        <div><div class="label" data-i18n="awaiting">Awaiting approval</div><div class="num" data-i18n="n" data-n="3">3</div><div class="sub amber" data-i18n="systemEquals">System equals count</div></div>
+      </div>
+      <div class="stat">
+        <div class="ico green"><svg width="17.625" height="14.5" viewBox="1063.875 187.75 17.625 14.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1074.17 199.499V192M1074.17 199.499H1074.92M1074.17 199.499H1070.42M1074.17 192V190.5C1074.17 190.102 1074.01 189.721 1073.73 189.439C1073.45 189.158 1073.06 189 1072.67 189H1066.67C1066.27 189 1065.89 189.158 1065.61 189.439C1065.32 189.721 1065.17 190.102 1065.17 190.5V198.749C1065.17 198.948 1065.25 199.139 1065.39 199.279C1065.53 199.42 1065.72 199.499 1065.92 199.499H1067.42M1074.17 192H1076.81C1076.92 192 1077.03 192.025 1077.13 192.074C1077.23 192.123 1077.32 192.194 1077.39 192.282L1080 195.544C1080.11 195.677 1080.17 195.842 1080.17 196.012V198.749C1080.17 198.948 1080.09 199.139 1079.95 199.279C1079.81 199.42 1079.62 199.499 1079.42 199.499H1077.92M1067.42 199.499C1067.42 200.327 1068.09 200.999 1068.92 200.999C1069.74 200.999 1070.42 200.327 1070.42 199.499M1067.42 199.499C1067.42 198.671 1068.09 197.999 1068.92 197.999C1069.74 197.999 1070.42 198.671 1070.42 199.499M1074.92 199.499C1074.92 200.327 1075.59 200.999 1076.42 200.999C1077.25 200.999 1077.92 200.327 1077.92 199.499M1074.92 199.499C1074.92 198.671 1075.59 197.999 1076.42 197.999C1077.25 197.999 1077.92 198.671 1077.92 199.499" stroke-width="1.5" stroke-linecap="round" stroke="#28956C"/></svg></div>
+        <div><div class="label" data-i18n="deliveredMonth">Delivered this month</div><div class="num" data-i18n="n" data-n="17">17</div><div class="sub green" data-i18n="onTime">All on time</div></div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2 data-i18n="orders">Orders</h2>
+        <table>
+          <thead>
+            <tr><th data-i18n="thOrder">Order</th><th data-i18n="thSupplier">Supplier</th><th data-i18n="thItem">Item</th><th data-i18n="thQty">Qty</th><th data-i18n="thExpected">Expected</th><th data-i18n="thStatus">Status</th><th></th></tr>
+          </thead>
+          <tbody id="orders">
+            <tr data-status="approved"><td class="po" data-i18n="po" data-n="1050">PO-1050</td><td data-i18n="company">Company name</td><td data-i18n="product" data-n="1">Product 1</td><td data-i18n="n" data-n="200">200</td><td data-i18n="date" data-n="21">21 Oct</td><td><span class="pill approved" data-i18n="approved">Approved</span></td><td><button class="btn-light" data-i18n="view">View</button></td></tr>
+            <tr data-status="approved"><td class="po" data-i18n="po" data-n="1049">PO-1049</td><td data-i18n="company">Company name</td><td data-i18n="product" data-n="2">Product 2</td><td data-i18n="n" data-n="300">300</td><td data-i18n="date" data-n="19">19 Oct</td><td><span class="pill approved" data-i18n="approved">Approved</span></td><td><button class="btn-light" data-i18n="view">View</button></td></tr>
+            <tr data-status="pending"><td class="po" data-i18n="po" data-n="1048">PO-1048</td><td data-i18n="company">Company name</td><td data-i18n="product" data-n="3">Product 3</td><td data-i18n="n" data-n="400">400</td><td data-i18n="date" data-n="18">18 Oct</td><td><span class="pill pending" data-i18n="pending">Pending</span></td><td><button class="btn-light" data-i18n="approve">Approve</button></td></tr>
+            <tr data-status="pending"><td class="po" data-i18n="po" data-n="1047">PO-1047</td><td data-i18n="company">Company name</td><td data-i18n="product" data-n="4">Product 4</td><td data-i18n="n" data-n="500">500</td><td data-i18n="date" data-n="20">20 Oct</td><td><span class="pill pending" data-i18n="pending">Pending</span></td><td><button class="btn-light" data-i18n="approve">Approve</button></td></tr>
+            <tr data-status="approved"><td class="po" data-i18n="po" data-n="1046">PO-1046</td><td data-i18n="company">Company name</td><td data-i18n="product" data-n="5">Product 5</td><td data-i18n="n" data-n="200">200</td><td data-i18n="date" data-n="17">17 Oct</td><td><span class="pill approved" data-i18n="approved">Approved</span></td><td><button class="btn-light" data-i18n="view">View</button></td></tr>
+            <tr data-status="delivered"><td class="po" data-i18n="po" data-n="1045">PO-1045</td><td data-i18n="company">Company name</td><td data-i18n="product" data-n="6">Product 6</td><td data-i18n="n" data-n="250">250</td><td data-i18n="date" data-n="14">14 Oct</td><td><span class="pill delivered" data-i18n="delivered">Delivered</span></td><td><button class="btn-light" data-i18n="view">View</button></td></tr>
+            <tr data-status="delivered"><td class="po" data-i18n="po" data-n="1044">PO-1044</td><td data-i18n="company">Company name</td><td data-i18n="product" data-n="7">Product 7</td><td data-i18n="n" data-n="150">150</td><td data-i18n="date" data-n="13">13 Oct</td><td><span class="pill delivered" data-i18n="delivered">Delivered</span></td><td><button class="btn-light" data-i18n="view">View</button></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <aside class="panel">
+        <h2 data-i18n="needsApproval">Needs your approval</h2>
+        <div class="approval">
+          <div><strong data-i18n="poProd" data-n="1048" data-p="1">PO-1048 · Product 1</strong><span data-i18n="supUnits" data-s="nile" data-n="400">Nile Foods Co. · 400 units</span></div>
+          <button class="btn-light" data-i18n="approve">Approve</button>
+        </div>
+        <div class="approval">
+          <div><strong data-i18n="poProd" data-n="1047" data-p="2">PO-1047 · Product 2</strong><span data-i18n="supUnits" data-s="sweet" data-n="500">Sweet Land · 500 units</span></div>
+          <button class="btn-light" data-i18n="approve">Approve</button>
+        </div>
+        <span class="ai-tag" data-i18n="aiTag">Suggested by AI forecast</span>
+      </aside>
+    </section>
+
+    <footer class="page-footer" dir="ltr" lang="en">© 2027 Smart Warehouse. All rights reserved.</footer>
+  </main>
+</div>
+
+<script src="script.js?v=1" defer></script>
+</body>
+</html>

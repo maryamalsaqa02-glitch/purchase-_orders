@@ -1,0 +1,21 @@
+/* Sidebar colors from the SVG design. Load AFTER the main stylesheet. */
+.sidebar { background: #1d2f4b !important; }
+.brand .b1 { color: #fff !important; }
+.brand .b2 {
+  background: linear-gradient(90deg, #a0b4d6 0%, #a0b4d6 47%, #4b6dc5 81%) !important;
+  -webkit-background-clip: text !important; background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; color: transparent !important;
+  opacity: .8;
+}
+.nav-label { color: #9ba8bf !important; }
+.nav li a { color: #cdd4e1 !important; }
+.nav li a svg path { stroke: #cdd4e1 !important; }
+.nav li a.active { background: #2b3b56 !important; }
+.nav .badge { color: #ef4444 !important; opacity: .8; }
+.user { border-top: 1px solid rgba(160, 180, 214, .5) !important; }
+.avatar { background: #526cb9 !important; color: #fff !important; }
+.user-info strong { color: #fff !important; }
+.user-info small { color: #9ba9ce !important; }
+.user-count { background: #20304a !important; color: #fff !important; }
+.user-count svg path { stroke: #fff !important; }
+.user-count i { background: #45b189 !important; color: #fff !important; }
